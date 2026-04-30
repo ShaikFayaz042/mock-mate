@@ -16,7 +16,7 @@ const Signup = () => {
   const { showToast } = useToast();
 
   const handleGoogleLogin = () => {
-    window.location.href = 'http://localhost:5000/api/auth/google';
+    window.location.href = 'https://mock-mate-api.onrender.com/api/auth/google';
   };
 
   const handleSubmit = async (e) => {

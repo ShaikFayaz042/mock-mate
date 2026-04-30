@@ -462,7 +462,7 @@ const Settings = () => {
                   <div className="mt-4">
                     <h4 className="text-sm font-medium text-[#9ca3af] mb-2">Resume File</h4>
                     <a
-                      href={`http://localhost:5000${profile.resumeUrl}`}
+                      href={`https://mock-mate-api.onrender.com${profile.resumeUrl}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-purple-400 hover:text-purple-300 text-sm underline"
